@@ -22,6 +22,7 @@
             </choice>
         </element>
         <element label="End Date" mandatory="true" max_length="255" name="end_date" type="glide_date_time"/>
+        <element label="Pickup Remainder" max_length="255" name="pickup_remainder" type="glide_date_time"/>
         <element label="Location to be used" max_length="40" name="location_to_be_used" type="string"/>
     </element>
 </database>
